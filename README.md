@@ -1,4 +1,4 @@
-\# Java OOP Studies
+# Java OOP Studies
 
 
 
@@ -10,29 +10,29 @@ O objetivo é registrar exercícios e implementações desenvolvidos durante o e
 
 
 
-\## Conteúdos
+## Conteúdos
 
 
 
-\- Classes e objetos
+- Classes e objetos
 
-\- Métodos
+- Métodos
 
-\- Getters e Setters
+- Getters e Setters
 
-\- Encapsulamento
+- Encapsulamento
 
-\- Relacionamento entre classes
+- Relacionamento entre classes
 
-\- Interfaces
+- Interfaces
 
-\- Herança
+- Herança
 
-\- Polimorfismo
+- Polimorfismo
 
 
 
-\## Objetivo
+## Objetivo
 
 
 
