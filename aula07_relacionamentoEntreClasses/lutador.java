@@ -40,6 +40,7 @@ public class lutador{
         System.out.println("Vitorias: " + this.getVitorias());
         System.out.println("Derrotas: " + this.getDerrotas());
         System.out.println("Empates: " + this.getEmpates());
+        System.out.println("Categoria: " + this.getCategoria());
     }
 
     public void status(){
@@ -85,7 +86,7 @@ public class lutador{
     }
     public void setPeso(float peso) {
         this.peso = peso;
-        setCategoria(peso);
+        this.setCategoria(peso);
     }
 
     public String getCategoria() {

@@ -12,18 +12,36 @@ public class main{
         l.add(4, new lutador("Ufo", "Brazil", 37, 1.70f, 119.3f, 5, 4, 3));
         l.add(5, new lutador("Nerd", "USA", 30, 1.81f, 105.7f, 12, 2, 4));
 
-        l.get(1).apresentar();
-        System.out.println();
-        l.get(0).apresentar();
+        // l.get(1).apresentar();
+        // System.out.println();
+        // l.get(0).apresentar();
 
-        l.get(2).status();
-        l.get(3).getCategoria();
-        l.get(1).ganharLuta();
-        l.get(0).empatarLuta();
-        System.out.println();
-        System.out.println();
-        l.get(1).apresentar();
-        System.out.println();
-        l.get(0).apresentar();
+        // l.get(2).status();
+        // l.get(3).getCategoria();
+        // l.get(1).ganharLuta();
+        // l.get(0).empatarLuta();
+        // System.out.println();
+        // System.out.println();
+        // l.get(1).apresentar();
+        // System.out.println();
+        // l.get(0).apresentar();
+
+        System.out.println("Luta 1: ");
+        luta UFC01 = new luta();
+        UFC01.marcarLuta(l.get(0), l.get(1));
+        UFC01.lutar();
+
+        System.out.println("\n\nLuta 2: ");
+
+        luta UFC02 = new luta();
+        UFC02.marcarLuta(l.get(2), l.get(2));
+        UFC02.lutar();
+
+        
+        System.out.println("\n\nLuta 3: ");
+
+        luta UFC03 = new luta();
+        UFC03.marcarLuta(l.get(4), l.get(5));
+        UFC03.lutar();
     }
 }
